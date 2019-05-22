@@ -21,7 +21,7 @@ lives initially
 
 * It runs on any modern web browser.
 * It needs internet connection to get required javascript,css & sweetalert and run properly
-* To run the game double click **index.html**
+* To run double click **index.html**
 
 ## Features
 
@@ -42,3 +42,14 @@ lives initially
 ## Contact us
 
 * For further explaination and technicalities i can be contacted at dhirendrapratapsingh398@gmail.com.
+
+# Priviews
+
+![Screenshot from 2019-05-22 10-39-01](https://user-images.githubusercontent.com/32532380/58149449-9fca3c80-7c80-11e9-8cd1-859905c6be13.png)
+
+![Screenshot from 2019-05-22 10-51-26](https://user-images.githubusercontent.com/32532380/58149450-9fca3c80-7c80-11e9-9ece-85011b28c2a8.png)
+
+![Screenshot from 2019-05-22 10-52-47](https://user-images.githubusercontent.com/32532380/58149451-9fca3c80-7c80-11e9-9a3b-727cefe85569.png)
+
+![Screenshot from 2019-05-22 10-57-40](https://user-images.githubusercontent.com/32532380/58149452-9fca3c80-7c80-11e9-87a4-b340ab46bc11.png)
+
