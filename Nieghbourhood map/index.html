@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neighbourhood Map of Jamshedpur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3 col-md-3 col-lg-4">
+				<h1 id="visitable_places">Places to visit in Jamshedpur</h1>
+				<input id="textinput" class="searchedphrase" type="text" placeholder="Enter place of your choice" name="filter" data-bind="textInput: textinput">
+				<nav>
+					<ul class="place-list list-unstyled" data-bind="foreach: filterSearch">
+						<li class="place" data-bind="text: name, click: $parent.displaymarker"></li>
+					</ul>
+				</nav>
+				<p id="resources"><a href="https://developers.google.com/maps/documentation/javascript/">This app is developed using Google Maps API, Knockout and fourquare API </a></p>
+			</div>
+			<div class="col-sm-9 col-md-9 col-lg-8" id="map-column">
+				<div id='map'>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/jsrmap.js"></script>
+	<script src="js/knockout-3.4.2.js"></script>
+	<script src="js/jsrviewmodel.js"></script>
+
+	<!-- Google Maps API -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyDXhEDMXCdHKk5bMYxZYKAk1dvGrLgzHGA&callback=initMap" onerror="GoogleMapAPIError()" ></script>
+</body>
+</html>
